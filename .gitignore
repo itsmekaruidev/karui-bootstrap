@@ -1,0 +1,30 @@
+# 🧼 Cache & log
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 🧪 Test result
+*.test
+*.out
+
+# 🧠 Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 🍏 MacOS
+.DS_Store
+
+# 🐍 Python (kalau ada testing)
+__pycache__/
+*.pyc
+
+# 🐧 Linux package trash
+*.tar.gz
+*.zip
+
+# 📦 Installer artifacts
+karui-bootstrap.ova
+install-debug.sh

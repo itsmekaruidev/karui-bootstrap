@@ -1,0 +1,8 @@
+# === Alias untuk Fedora ===
+alias update='sudo dnf upgrade --refresh -y'
+alias install='sudo dnf install -y'
+alias remove='sudo dnf remove -y'
+alias search='dnf search'
+alias list='dnf list installed'
+alias clean='sudo dnf autoremove -y && sudo dnf clean all'
+alias rebootnet='sudo systemctl restart NetworkManager.service'

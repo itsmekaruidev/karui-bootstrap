@@ -1,0 +1,9 @@
+# === Alias untuk Debian/Ubuntu/Mint/PopOS ===
+alias update='sudo apt update && sudo apt upgrade -y'
+alias install='sudo apt install'
+alias remove='sudo apt remove'
+alias search='apt search'
+alias list='apt list --installed'
+alias clean='sudo apt autoremove && sudo apt clean'
+alias fix='sudo dpkg --configure -a && sudo apt install -f'
+alias rebootnet='sudo systemctl restart NetworkManager.service'

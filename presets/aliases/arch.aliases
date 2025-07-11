@@ -1,0 +1,13 @@
+# === Alias untuk Arch/Manjaro/EndeavourOS ===
+alias update='sudo pacman -Syu'
+alias install='sudo pacman -S'
+alias remove='sudo pacman -Rns'
+alias search='pacman -Ss'
+alias list='pacman -Qe'
+alias orphan='sudo pacman -Rns $(pacman -Qdtq)'
+alias clean='sudo pacman -Sc'
+alias cleanall='sudo pacman -Scc'
+alias y='yay'
+alias yupdate='yay -Syu'
+alias yremove='yay -Rns'
+alias ysearch='yay -Ss'
